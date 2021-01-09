@@ -1,0 +1,48 @@
+briken router es el nodo principal
+
+crear un mockProject (archivo) para ir probando cada mock
+
+en 'imports/ui/dashboard/, linea 12 de routes.tsx, es mejor que la parte de content = {} sea un child
+
+la idea es agregar cada page en routes.tsx
+
+cambiar el flowRouter por el reactRouter
+
+cambiar Array<T> por ReadOnly(Array<T>)
+
+
+REBASE antes de el FEATURE FINISH !!!!!!!!!!
+
+------------------------------------------------------------------------
+
+	VER JERARQUIA DEL SCSS ! para resolver problemas de las pages
+
+------------------------------------------------------------------------
+
+- como romper la matematica?
+	
+	- autoreferencia
+	- negacion
+
+- con que se resuelven problemas matematicas?
+
+	- completitud. Godel dijo: "si es consistente, no es completo"
+	- consistencia. Godel dijo: "si uno considera que el sistema logico es consistente, entonces 						no lo es"
+
+		como logra romper la matematica? con AUTOREFERENCIA y NEGACION
+
+
+- Generalizacion de Kantor
+
+- Halting Problem
+
+------------------------------------------------------------------------
+
+1)	en algunos casos vaya a servir el tema de la comunicacion satelital
+
+2)	cortex-R (industria automotriz), poner en funcionamiento el micro que tenga alguna funcionalidad basica.
+
+	es factible pasar del 4337 al cortex-R? es directo el porting?
+
+
+Gustavo Ramoscelli, profesor de IoT en el posgrado del LSE

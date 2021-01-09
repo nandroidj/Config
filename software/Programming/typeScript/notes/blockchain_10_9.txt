@@ -1,0 +1,76 @@
+	
+	BLOCKCHAIN
+	
+		single point of failure
+
+	Propiedades de una criptomoneda,
+		- escaso
+		- fungible (= indistinguible)
+		- divisible
+		- infalsificable
+		- transferible
+		- indestructible
+
+
+	Reply attack
+
+		nonce 
+		nonce_zeros
+		PoW (proof-of-work)
+
+		soft-fork
+
+		cada nodo tiene una copia de sus bloques anteriores
+
+		51% attack
+
+		asic para minar a pleno
+
+		infura : nodo de entrada a la blockchain
+
+		EVM : ethereum virtual machine
+
+		Solidity
+
+		Verificacion formal de smart contracts
+
+		ERC20 : interfaz estandar para criptomonedas
+
+		ERC721 : estandar para tokens no fungibles
+
+		web3.0
+
+		DAPP
+
+		DAO : Decentralized Autonomous Organization
+
+		open zeppelin
+
+		MKRO
+
+		DAI
+
+		multisig : multi-signature (open zeppelin)
+
+		maynet, testnet
+		
+		truffle, herramienta para testeos locales	
+
+		el sc de extension .sol al ejecutarse devuelve un .json donde el campo bytecode es el
+		codigo binario del contrato.
+
+		nodeManager.ts es el archivo que interactua con los contratos
+			'imports/front/blockchain/nodeManager.ts'
+
+		IPFS (linkeado con Infura)
+
+
+		twelve words recovery phrase
+
+	features que esta desarrollando Ethereum,
+
+		yarding
+		proof-of-stake
+
+
+	

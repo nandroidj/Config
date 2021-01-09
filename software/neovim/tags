@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+<S-TAB>	init.vim	/^inoremap <expr><S-TAB> pumvisible() ? "\\<C-p>" : "\\<C-h>"$/;"	m
+<TAB>	init.vim	/^inoremap <silent><expr> <TAB>$/;"	m
+<c-@>	init.vim	/^  inoremap <silent><expr> <c-@> coc#refresh()$/;"	m
+<c-space>	init.vim	/^  inoremap <silent><expr> <c-space> coc#refresh()$/;"	m
+<cr>	init.vim	/^  inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\\<C-y>" : "\\<C-g>u\\<CR>"$/;"	m
+<cr>	init.vim	/^  inoremap <expr> <cr> pumvisible() ? "\\<C-y>" : "\\<C-g>u\\<CR>"$/;"	m
+<leader>a	init.vim	/^nmap <leader>a  <Plug>(coc-codeaction-selected)<CR>$/;"	m
+<leader>f	init.vim	/^nmap <leader>f  <Plug>(coc-format-selected)<CR>$/;"	m
+<leader>rn	init.vim	/^nmap <leader>rn <Plug>(coc-rename)$/;"	m
+<space>d	init.vim	/^nnoremap <silent> <space>d :<C-u>CocList diagnostics<cr>$/;"	m
+K	init.vim	/^nnoremap <silent> K :call <SID>show_documentation()<CR>$/;"	m
+K	init.vim	/^nnoremap <silent> K :call CocAction('doHover')<CR>$/;"	m
+[g	init.vim	/^nmap <silent> [g <Plug>(coc-diagnostic-prev)$/;"	m
+]g	init.vim	/^nmap <silent> ]g <Plug>(coc-diagnostic-next)$/;"	m
+check_back_space	init.vim	/^function! s:check_back_space() abort$/;"	f
+g:coc_global_extensions	init.vim	/^  let g:coc_global_extensions += ['coc-eslint']$/;"	v
+g:coc_global_extensions	init.vim	/^  let g:coc_global_extensions += ['coc-prettier']$/;"	v
+g:coc_global_extensions	init.vim	/^let g:coc_global_extensions = [$/;"	v
+g:deoplete#enable_at_startup	init.vim	/^let g:deoplete#enable_at_startup = 1$/;"	v
+g:gruvbox_contrast_dark	init.vim	/^let g:gruvbox_contrast_dark = 'soft'$/;"	v
+g:gruvbox_italic	init.vim	/^let g:gruvbox_italic=1$/;"	v
+g:gruvbox_termcolors	init.vim	/^let g:gruvbox_termcolors = '256'$/;"	v
+g:gruvbox_transparent_bg	init.vim	/^let g:gruvbox_transparent_bg=1$/;"	v
+g:tex_flavor	init.vim	/^let g:tex_flavor = 'latex'$/;"	v
+gd	init.vim	/^nmap <silent> gd <Plug>(coc-definition)$/;"	m
+gi	init.vim	/^nmap <silent> gi <Plug>(coc-implementation)$/;"	m
+gr	init.vim	/^nmap <silent> gr <Plug>(coc-references)$/;"	m
+gy	init.vim	/^nmap <silent> gy <Plug>(coc-type-definition)$/;"	m
+mapleader	init.vim	/^let mapleader = " "$/;"	v
+show_documentation	init.vim	/^function! s:show_documentation()$/;"	f
